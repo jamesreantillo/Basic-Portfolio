@@ -60,9 +60,42 @@ body {
   top: 140px;
   background-color: #ffffff;
 }
+.portfolio {
+  width: 222px;
+  height: 181px;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+.hobby p {
+  width: 222px;
+  display: inline;
+  position: absolute;
+  left: 10px;
+  top: 125px;
+  background-color: #4aaaa5;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.games {
+  margin-left: 242px;
+}
+p.kettle {
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+  top: 325px;
+}
 .label {
-    width: 450px;
-    height: 30px;
+  width: 450px;
+  height: 30px;
+}
+.beach {
+  margin-top: 220px;
+  margin-left: 242px;
 }
 form {
   padding: 10px;
