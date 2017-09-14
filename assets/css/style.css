@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #dddddd;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+}
+.name {
+  float: left;
+  margin-left: 10%;
+  display: block;
+  background-color: #00AEA7;
+  height: 90px;
+  line-height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.name h2 {
+  font-size: 30px;
+}
+.nav {
+  float: right;
+  margin-right:10%;
+  line-height: 80px;
+}
+.nav a{
+  text-decoration: none;
+  padding: 20px;
+}
+.main-section {
+  background-image: url('../images/hypnotize.png');
+  height: 493px;
+  position: relative;
+  top: 98px;
+}
+.main-section p {
+  color: red;
+}
+.main-section h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.section {
+ border: 1px solid lightgray;
+ height: 400px;
+ width: 50%;
+ position: absolute;
+ top: 50px;
+ left: 10%;
+ background-color: white;
+}
+.section h2 {
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #00AEA7;
+}
+.section img {
+  margin-top: 20px;
+  height: 200px;
+  padding-left: 30px;
+  display: relative;
+}
+.aside {
+ border: 1px solid lightgray;
+ height: 160px;
+ width: 25%;
+ position: absolute;
+ top: 50px;
+ right: 10%;
+ background-color: white;
+}
+.aside h2 {
+  border-bottom: 1px solid lightgray;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+  color: #00AEA7;
+}
+.images {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.images img {
+  padding: 5px;
+}
+.images img:nth-child(3) {
+    width: 57px;
+    padding-bottom: 9px;
+    padding-left: 3;
+}
+.footer {
+  height: 90px;
+  background-color: gray;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-top: 5px solid #00AEA7;
+}
+.footer h6 {
+  padding: 40px;
+}
